@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                echo "this is my second test stage"
+                echo "this is my second test stage" print jayachandra
             }
         }
         stage('Deploy') {
